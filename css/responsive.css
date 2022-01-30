@@ -1,3 +1,66 @@
-@media only screen (min-width:) {
+/* -------------------------------------------
+    Mobile Friendly Media Queries Codes Start
+---------------------------------------------*/
+@media only screen and (max-width:688px) {
+
+    .site-title {
     
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-section {
+        flex-direction: column;
+    }
+    .top-section-left {
+        width: 375px;
+        height: 244px;
+    }
+    .top-section-left h1 {
+        margin: 0px;
+        color: #3A3A3A;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 42px;
+        text-align: center;
+    }
+    .top-section-left p {
+        font-size: 16px;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 21px;
+        color: #3A3A3A;
+        text-align: center;
+    }
+    .prebook-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .top-section-right img {
+        width: 400px;
+        height: 364px;
+    }
+    .popular-collection {
+        margin-top: 70px;
+    }
+    .collection-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact-section {
+        padding: 10px;
+        margin-top: 0;
+    }
+    .contact-us {
+        width: 30%;
+    }
+
 }
+
+/* -------------------------------------------
+    Mobile Friendly Media Queries Codes End
+---------------------------------------------*/
