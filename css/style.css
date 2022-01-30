@@ -1,0 +1,284 @@
+/*------------------
+    Google Fonts 
+--------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*-----------------------
+Common CSS Styles  Start
+ ------------------------*/
+ 
+body{
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+main, header, .footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 1130px;
+}
+/*------------------------------
+Common CSS Styles  End
+ -------------------------------*/
+
+/*------------------------------
+        Header Section  Start 
+--------------------------------*/
+
+.site-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color:#3A3A3A;
+    margin-left: 0px;
+}
+/*------------------------------
+        Header Section  End 
+--------------------------------*/
+
+/*------------------------------
+Top header section styles Start
+ -------------------------------*/
+
+ .top-section{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .top-section-left{
+     width: 582px;
+     height: 270px;
+ }
+ .top-section-left h1{
+    font-size: 52px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 72px;
+    margin: 0px;
+    color: #3A3A3A;
+}
+.top-section-left p{
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 24px;
+    color: #3A3A3A;
+}
+.prebook-btn-link {
+	display: inline-flex;
+	background-color: #E02C6D;
+	padding: 5px 15px;
+	border-radius: 41px;
+}
+.prebook-btn-link a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;
+    margin-right: 8px;
+}
+.prebook-btn-link img:hover{
+    cursor: pointer;
+}
+ .top-section-right{
+     width: 440px;
+ }
+ .top-section-right img{
+    width: 440px;
+    height: 414px;
+}
+.top-section-right img:hover{
+    transform: scale(0.8);
+    transition: 0.5s ease-in-out;
+}
+/*------------------------------
+Top header section styles End
+ -------------------------------*/
+
+ /*---------------------------------------
+ Popular Collection Section Style Start 
+ -----------------------------------------*/
+ .popular-collection{
+     margin-top: 100px;
+ }
+ .collection-title{
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 70px;
+    color: #3A3A3A;
+    margin: 0 0 30px 0;
+ }
+ .collection-items{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-row-gap: 30px;
+     justify-items: center;
+ }
+ .item-container{
+    width: 329px;
+    height: 476px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 17px 0 0 0;
+ }
+ .item-thumbnail img{
+    width: 300px;
+    height: 256px;
+ }
+ 
+ .item-title{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px; 
+    line-height: 40px;
+    margin: 16px 0 6px 0;
+    color: #18191F;
+ }
+ .item-price{
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0 0 6px 0;
+    color: rgba(0, 0, 0, 0.87);
+ }
+ .fa-star.filled{
+    color: #ffc014;
+}
+.fa-star.empty{
+    color: #aeaeae;
+    margin-right: 10px;
+}
+.rating-value{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    color: #5E6366;
+}
+.item-info p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px;
+    color: #787885;
+}
+.see-more-btn {
+	display: flex;
+	align-items: center;
+	margin: 50px 25px 15px 0;
+	justify-content: right;
+}
+.see-more-btn a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(224, 44, 109, 0.87);
+    margin-right: 8px;
+ }
+ .fa-arrow-right{
+    color: rgba(224, 44, 109, 0.87);
+ }
+ .fa-arrow-right:hover{
+    cursor: pointer;
+ }
+/*---------------------------------------
+ Popular Collection Section Style End 
+ -----------------------------------------*/
+
+ /*---------------------------------------
+        Contact Section Style Start 
+ -----------------------------------------*/
+ .contact-section{
+     padding: 20px;
+     margin-top: 80px;
+ }
+ .contact-title{
+     text-align: left;
+ } 
+ .contact-us{
+     width: 50%;
+     margin: 0 auto;
+ }
+ .form-size{
+     width: 100%;
+     padding: 10px;
+     border-radius: 10px;
+     margin-bottom: 10px;
+     border: 1px solid black;
+     font-size: 16px;
+ }
+ .submit-btn{
+     text-decoration: none;
+     background-color: #E02C6D;
+     color: #ffffff;
+     padding: 5px 10px;
+     border-radius: 20px;
+ }
+
+ 
+ /*---------------------------------------
+        Contact Section Style End 
+ -----------------------------------------*/
+
+  /*---------------------------------------
+        Footer Section Style Start 
+ -----------------------------------------*/
+
+ .footer-section{
+     margin-top: 100px;
+ }
+ .footer-area{
+    width: 1440px;
+    background: #0A0826;
+    padding: 50px 0;
+ }
+
+ .footer-texts{
+     text-align: center;
+     margin-bottom: 17px;
+ }
+ .footer-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+     margin: 0 0 3px 0;
+     color: #FFFFFF;
+ }
+ .footer-texts p {
+	margin: 0 0 3px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+}
+.footer-icons{
+    text-align: center;
+}
+.fill-color{
+    color: #ffffff;
+    font-size: 17px;
+}
+.footer-icons a{
+    margin-right: 16px;
+}
+
+ /*---------------------------------------
+        Footer Section Style End 
+ -----------------------------------------*/
