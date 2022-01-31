@@ -229,8 +229,6 @@ Top header section styles End
      padding: 5px 10px;
      border-radius: 20px;
  }
-
- 
  /*---------------------------------------
         Contact Section Style End 
  -----------------------------------------*/
@@ -238,7 +236,6 @@ Top header section styles End
   /*---------------------------------------
         Footer Section Style Start 
  -----------------------------------------*/
-
  .footer-section{
      margin-top: 100px;
  }
@@ -278,7 +275,6 @@ Top header section styles End
 .footer-icons a{
     margin-right: 16px;
 }
-
  /*---------------------------------------
         Footer Section Style End 
  -----------------------------------------*/
