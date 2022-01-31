@@ -4,12 +4,10 @@
 @media only screen and (max-width:688px) {
 
     .site-title {
-    
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
     .top-section {
         flex-direction: column;
     }
@@ -50,7 +48,9 @@
     .collection-items {
         grid-template-columns: repeat(1, 1fr);
     }
-
+    .see-more-btn{
+        width: 689px;
+    }
     .contact-section {
         padding: 10px;
         margin-top: 0;
@@ -60,7 +60,36 @@
     }
 
 }
-
 /* -------------------------------------------
     Mobile Friendly Media Queries Codes End
 ---------------------------------------------*/
+
+/* -------------------------------------------
+    Tablet Friendly Media Queries Codes Start
+---------------------------------------------*/
+@media only screen and (min-width:688px) and (max-width:992px) {
+    
+    .site-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top-section {
+        flex-direction: column;
+    }
+    .top-section-left {
+        width: 689px;
+        height: 250px;
+    }
+    .collection-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .popular-collection {
+        margin-top: 80px;
+        width: 689px;
+    }
+}
+/* -------------------------------------------
+    Tablet Friendly Media Queries Codes End
+---------------------------------------------*/
+
