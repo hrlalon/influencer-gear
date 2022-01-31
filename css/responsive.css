@@ -58,6 +58,9 @@
     .contact-us {
         width: 30%;
     }
+    .footer-section {
+        margin-top: 80px;
+    }
 
 }
 /* -------------------------------------------
@@ -87,6 +90,9 @@
     .popular-collection {
         margin-top: 80px;
         width: 689px;
+    }
+    .contact-section {
+        margin-top: 50px;
     }
 }
 /* -------------------------------------------
